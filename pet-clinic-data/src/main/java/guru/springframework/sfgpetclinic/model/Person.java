@@ -1,22 +1,22 @@
 package guru.springframework.sfgpetclinic.model;
 
-public class Person {
-    private String firtName;
-    private String lstName;
+public class Person extends BaseEntity {
+    private String firstName;
+    private String lastName;
 
-    public String getFirtName() {
-        return firtName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFirtName(String firtName) {
-        this.firtName = firtName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public String getLstName() {
-        return lstName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLstName(String lstName) {
-        this.lstName = lstName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
